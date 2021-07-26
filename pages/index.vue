@@ -1,7 +1,3 @@
-<template lang="pugg">
-  <Tutorial/>
+<template lang="pug">
+  h1 Welcome Boxify
 </template>
-
-<script>
-export default {}
-</script>

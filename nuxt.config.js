@@ -18,6 +18,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/universe-core.css',
+    '~/assets/css/custom.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -52,19 +54,19 @@ export default {
       strategy: 'prefix_except_default',
       locales: [
         {
-          code: 'en',
-          file: 'en.js',
-          name: 'English'
-        },
-        {
           code: 'es',
           file: 'es.js',
           name: 'Español'
+        },
+        {
+          code: 'fr',
+          file: 'fr.js',
+          name: 'Français'
         }
       ],
       lazy: true,
       langDir: '~/lang',
-      defaultLocale: 'en'
+      defaultLocale: 'es'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
