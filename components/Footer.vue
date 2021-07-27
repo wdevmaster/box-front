@@ -5,22 +5,22 @@
         i.icon.icon-tree
         |  {{ $t('Compensamos todo el CO2 que utilizamos plantando arboles con cada Boxify enviado.') }} |
         |
-        a(href='https://tree-nation.com/profile/boxify') {{ $t('Ver nuestro bosque') }}
+        a(href='https://tree-nation.com/profile/boxify' target='_blank') {{ $t('Ver nuestro bosque') }}
       footer#site-footer
         section.footer-upper.wrapper
           ul.footer-logos.list-none.row
             li.small-4.large-2.columns
-              img(src='elmundo.png')
+              img(src='/elmundo.png')
             li.small-4.large-2.columns
-              img(src='elreferente.png')
+              img(src='/elreferente.png')
             li.small-4.large-2.columns
-              img(src='marketingnew.png')
+              img(src='/marketingnew.png')
             li.small-4.large-2.columns
-              img(src='iberian.png')
+              img(src='/iberian.png')
             li.small-4.large-2.columns
-              img(src='ecommercenews.png')
+              img(src='/ecommercenews.png')
             li.small-4.large-2.columns
-              img(src='BBSC.png')
+              img(src='/BBSC.png')
           section.page-product-addons.row
             .large-4.columns
               div {{ $t('Enviamos en {h} o en tu fecha escogida.', {h: '48h'}) }}
@@ -42,16 +42,16 @@
                   li
                     a(href='https://boxifygifts.typeform.com/to/zgGbMp' :title="$t('Ambassador Club')") {{ $t('Ambassador Club') }}
               .small-12.medium-4.large-4.columns.footer-widget.footer-widget__footer-nav
-                h3.widget__title {{ $t('Links de interes') }}
+                h3.widget__title {{ $t('Links de interés') }}
                 ul.vertical.menu
                   li
                     a(href='/pages/vende-tus-productos-en-boxify' :title="$t('Vende tus productos en Boxify')") {{ $t('Vende tus productos en Boxify') }}
                   li
                     a(href='/pages/condiciones-de-uso' :title="$t('Condiciones de Uso')") {{ $t('Condiciones de Uso') }}
                   li
-                    a(href='/pages/politica-de-privacidad' :title="$t('Politica de privacidad')") {{ $t('Politica de privacidad') }}
+                    a(href='/pages/politica-de-privacidad' :title="$t('Política de privacidad')") {{ $t('Política de privacidad') }}
               .small-12.medium-4.large-4.columns.footer-widget.footer-widget__html.end
-                h3.widget__title {{ $t('Siguenos en') }}
+                h3.widget__title {{ $t('Síguenos en') }}
                 .widget__desc.rte-raw
                   ul.footer-info
                     a(href='https://www.facebook.com/weareboxify')
@@ -80,7 +80,7 @@
             .m-auto
               span(v-for='locale in $i18n.locales' :key='locale.code')
                 a(href='#' @click.prevent.stop='$i18n.setLocale(locale.code)')
-                  img(:src="`${locale.code}.png`")
+                  img(:src="`/${locale.code}.png`")
                   | {{ locale.name }}
           .copyright.text-center
             p &copy; {{ $t('Boxify {y} Todos los derechos reservados', {y: '2021'}) }}

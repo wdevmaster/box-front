@@ -15,11 +15,11 @@
         .large-6.columns.show-for-large.primary-menu-container
           ul#primary-menu.dropdown.menu(role='menubar' data-e='p2jrte-e')
             li.menu-item(role='menuitem')
-              a.menu-item-link(href='#') {{ $t('Preguntas Frecuentes') }}
+              a.menu-item-link(href='/pages/preguntas-frecuentes') {{ $t('Preguntas Frecuentes') }}
             li.menu-item(role='menuitem')
               a.menu-item-link(href='#') {{ $t('Para empresas') }}
             li.menu-item(role='menuitem')
-              a.menu-item-link(href='#') {{ $t('Crear un boxify') }}
+              a.menu-item-link(href='/pages/elige-tu-tipo-de-box') {{ $t('Crear un boxify') }}
 
         .small-3.medium-3.large-3.columns.text-right
           h-menu

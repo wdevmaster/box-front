@@ -1,0 +1,30 @@
+<template lang="pug">
+  .page-template.custom-page(data-section-id='page-template' data-section-type='page-template')
+    div
+      .row
+        .medium-10.large-9.columns.custom-page__content.medium-centered.large-centered
+          .rte
+            h3 {{ $t('Se hace constar que las presentes condiciones se han definido por parte de Boxify S.L., con ubicación en Orense 69, Piso 3, 28020 Madrid España y C.I.F.: B87979944 en representación de BOXIFY, como marca comercial empleada en su sitio web: www.BOXIFY.es') }}
+            br
+            | {{ $t('La visita a esta web no supone que el usuario esté obligado a facilitar ninguna información sobre sí mismo. En el caso de que proporcione el usuario alguna información de carácter personal, los datos recogidos serán utilizados con la finalidad, en la forma y con las limitaciones y derechos que recoge la Ley Orgánica 15/1999, de Protección de Datos de Carácter Personal. Las finalidades para las cuales serán recabados los datos se especificarán en el propio formulario de datos, incluyendo la gestión del alta como usuario, envío de información comercial de futuras campañas, productos y/o servicios por correo postal o por medios electrónicos, incluyendo SMS, así como la realización de encuestas. Los usuarios que faciliten datos de carácter personal, consienten inequívocamente la incorporación de sus datos en un fichero de los que sea responsable la compañía, así como el tratamiento informatizado o no de los mismos.') }}
+            br
+            br
+            | {{ $t('La compañía ha adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad e integridad de los datos, así como para evitar su alteración, pérdida, tratamiento o acceso no autorizado. Los usuarios cuyos datos sean objeto de tratamiento podrán ejercitar gratuitamente los derechos de oposición, acceso e información, rectificación, cancelación de sus datos y revocación de su autorización, sin efectos retroactivos en los términos especificados en la Ley Orgánica 15/1999 de Protección de Datos de Carácter Personal, conforme al procedimiento legalmente establecido. Estos derechos podrán ser ejercitados escribiéndonos a la dirección de correo electrónico: info@BOXIFY.es. En el momento de proceder a la recogida de los datos se indicará el carácter voluntario u obligatorio de los datos objeto de recogida. El acceso a esta web puede implicar la utilización de cookies. Las cookies son pequeñas cantidades de información que se almacenan en el navegador utilizado por cada usuario para que el servidor recuerde cierta información que posteriormente únicamente el servidor que la implementó leerá. Las cookies tienen, generalmente, una duración limitada en el tiempo. Ninguna cookie de este web permite que pueda contactarse con el número de teléfono del usuario, su dirección de correo electrónico o con cualesquiera otro medio de contacto. Ninguna cookie de este web puede extraer información del disco duro del usuario o robar información personal. La única manera, en este web, de que la información privada de un usuario forme parte del archivo cookie es que el usuario dé personalmente esa información al servidor. Aquellos usuarios que no deseen recibir cookies o quieran ser informados de su fijación pueden configurar su navegador a tal efecto. BOXIFY podrá facilitar datos nominativos a sus socios comerciales. De esta forma, el usuario podrá recibir ofertas comerciales de terceros. A este respecto, se especifica que, salvo rechazo expreso por parte del usuario, BOXIFY podrá facilitar los datos de éste a sus socios comerciales. Sin embargo, en lo que respecta a la dirección de correo electrónico del cliente, BOXIFY sólo podrá utilizar o facilitar dicha dirección a sus socios con la autorización expresa del usuario. Por supuesto, el usuario podrá en todo momento anular dicha autorización, comunicando su rechazo usando este formulario') }}
+            br
+            br
+            | {{ $t('Si ha dado su consentimiento expreso, y en tanto no lo revoque, se utilizará su correo electrónico para enviar información sobre ofertas y servicios que puedan resultar de su interés. En cualquier momento podrá modificar los datos de su registro de cliente (cambio de domicilio, teléfono....). Así mismo de informamos que, de conformidad con la Ley Orgánica 15/1999 de 13 de diciembre, de Protección de Datos de Carácter Personal, y demás legislación vigente en materia de protección de datos, los datos personales contenidos en este formulario se incorporarán a un fichero titularidad de Boxify SL con la finalidad de canalizar las solicitudes de información, sugerencias y reclamaciones de clientes para su gestión y resolución. El cliente puede ejercer los derechos de acceso, rectificación, oposición y cancelación dirigiéndose a Boxify S.L. a la dirección proporcionada anteriormente, en los términos legalmente previstos, pudiendo solicitar información.') }}
+            br
+            br
+            | {{ $t('Nuestra web utiliza cookies. Una "Cookie" es un pequeño archivo que se almacena en el ordenador del usuario y nos permite reconocerle. El conjunto de "cookies" nos ayuda a mejorar la calidad de nuestra web, permitiéndonos controlar qué páginas encuentran nuestros usuarios útiles y cuáles no. Las cookies son esenciales para el funcionamiento de internet, aportando innumerables ventajas en la prestación de servicios interactivos, facilitándole la navegación y usabilidad de nuestra web. Tenga en cuenta que las cookies no pueden dañar su equipo y que, a cambio, el que estén activadas nos ayudan a identificar y resolver los errores. A pesar de ello usted puede inhabilitar el uso de las cookies desde la configuración de su navegador de internet o puede establecer ciertas políticas que permitan activar un modo privado mediante el cual las cookies se borran siempre después de su visita.') }}
+
+</template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: `${this.$t('Política de privacidad')} - Boxify`,
+    }
+  },
+}
+</script>
