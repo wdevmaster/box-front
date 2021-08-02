@@ -1,0 +1,220 @@
+.price-tag {
+  color: #ff2260;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.card-dedication {
+  width: auto;
+}
+.card-dedication > div {
+  margin-bottom: 20px;
+}
+.card-dedication input,
+.card-dedication textarea,
+.card-dedication select {
+  font-size: 1rem;
+  color: #343434;
+  min-height: 30px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.card-dedication select {
+  padding: 0 20px;
+}
+
+.card-dedication textarea {
+  min-height: 200px;
+}
+
+.image-loader input {
+  display: none;
+}
+
+.has-error input,
+.has-error textarea {
+  border: 2px solid #dc7676;
+}
+
+.card-dedication input:focus,
+.card-dedication textarea:focus,
+.card-dedication select:focus {
+  box-shadow: none;
+  border-color: #ee7269;
+}
+
+.card-dedication .charsleft {
+  color: #484848;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+}
+.card-dedication .charsleft span {
+  font-weight: 700;
+  color: #000;
+}
+.card-dedication label {
+  text-align: left;
+  font-size: 16px;
+}
+.ideas-title {
+  margin: 30px 0;
+}
+.ideas li {
+  padding: 10px;
+  border-radius: 3px;
+}
+.ideas .ideas-inner {
+  cursor: pointer;
+  border-radius: 10px;
+  background: white;
+  padding: 25px 15px;
+  text-align: center;
+  min-height: 160px;
+  color: #343434;
+}
+
+@media (min-width: 650px) {
+  .card-dedication {
+    width: 50%;
+    margin: 0 auto 80px auto;
+  }
+  .ideas .ideas-inner {
+    min-height: 240px;
+  }
+}
+
+.builder-inner {
+  h6 {
+    color: #f96767;
+    padding: 20px 0;
+  }
+}
+
+.image-loader .btn-add {
+  position: relative;
+  width: 100%;
+  background: url("https://cdn.shopify.com/s/files/1/2578/6058/files/subir_5d8395b7-7146-4e23-bb22-bd02eb9670c4_480x480.png?v=1587911800") 0 0 no-repeat;
+  background-size: contain;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.image-loader .btn-add div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  text-align: center;
+  z-index: 1;
+  color: #6e7991;
+}
+.image-loader .btn-add i {
+  font-size: 20vh;
+}
+.image-loader .percentage {
+  text-align: center;
+  font-size: 20px;
+  color: #7caca1;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+@media (min-width: 650px) {
+  .image-loader .btn-add div {
+    bottom: 20px;
+    font-size: 16px;
+  }
+}
+.buttons[data-v-220b0070] {
+  margin-top: 20px;
+}
+
+.builder {
+  padding: 20px;
+}
+.builder-margin-title {
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+.has-error .btn-add {
+  box-shadow: 0 0 0 2px red inset;
+}
+.has-error .error-desc {
+  color: red;
+  font-size: 14px;
+}
+.selectedbox, .selectedgift {
+  border: 2px solid #e85454 !important;
+  border-radius: 3px;
+}
+
+.box-select-option-inside {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  label {
+    padding: 20px 10px;
+    margin-bottom: 0;
+  }
+}
+
+.gift-div {
+  border-radius: 30px !important;
+  background: white;
+  border: none;
+  height: auto;
+  text-align: center;
+
+  .info {
+    padding: 20px;
+    min-height: 180px;
+    label {
+      @media (max-width: 800px) {
+        min-height: 30px;
+      }
+    }
+  }
+
+  .view-more {
+    color: #f26060;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 4rem;
+    @media (max-width: 800px) {
+      color: #f26060;
+      cursor: pointer;
+      line-height: 1;
+      margin-top: 20px;
+      font-size: 0.8rem;
+  }
+  }
+
+  img {
+    margin-bottom: 20px;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+.box-info {
+  padding: 20px;
+}
+
+.box-label {
+  text-align: left;
+  color: #333;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
